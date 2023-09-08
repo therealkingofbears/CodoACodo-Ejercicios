@@ -1,0 +1,160 @@
+/* Selector de etiqueta */
+
+
+h1 {
+    background: #eceae2dc;
+    color: hsl(271, 65%, 37%);
+    font-size: 60px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid #e2e2e2;
+    position: relative;
+    left: 150px;
+}
+
+a {
+    color: rgb(40, 40, 218);
+}
+
+/* Selector por Id */
+#inputNombre {
+    color: #28b3b3;
+}
+
+/* Selector por clase (class) */
+.oscuro {
+    background: #420742;
+    color: #ffffff;
+}
+
+.subrayado {
+    text-decoration: underline 5px purple;
+}
+
+h2 {
+    color: #651caa77;
+    font-size: 20px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid #e2e2e2;
+    position: relative;
+    left: 150px;
+}
+
+/* la etiqueta "body" impacta el estilo en todo el cuerpo */
+
+
+body {
+    font-family: 'Caprasimo', cursive;
+    background-image: url("../img/place-setting-309980_1280.png");
+    background-position: unset;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+footer {
+    font-family: 'Caprasimo', cursive;
+    background-color: #ffffff7a;
+}
+
+label{
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#form-registro{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+    background: #e2e2e2;
+    padding: auto;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-bottom: 2px;
+    margin-left: auto;
+    /* se puede reemplazar todos los márgenes usando margin: 2px 5px 10px 20px, donde el primer valor es margin-top, el segundo margin-right, el tercero, margin-bottom, el cuarto, margin-left */
+}
+
+.subtitle{
+    padding: 15px 0 30px;
+    color:grey
+}
+
+.section{
+    padding: 0 20px;
+}
+
+.ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+    .ul li{
+        padding: 0 20px;
+    }
+
+.link{
+    padding: 10px 20px;
+    color:grey;
+    text-decoration: none;
+    font-weight: 700;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+    .link.btn{
+        display: block;
+        position: relative;
+        margin: 20px auto 0;
+        width: 80%;
+    }
+
+.form-group{
+    padding: 10px 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.input{
+    padding: 8px 15px;
+    border: solid 1px grey;
+    border-radius: 5px;
+}
+
+/* Cómo se usa Flexbox con una clase flex.container */
+.flex-container {
+    display: flex;
+    background-color: #f3e0e0b9;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* las dos últimas propiedades se pueden escribir juntas:
+    place-content: space-between center;
+    */
+}
+
+
+.flex-container > ul {
+    background-color: #f118f1b2;
+    text-align: center;
+    margin: 3px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:wght@200&display=swap');
+
+/* Selector universal, para dar un estilo a todos los elementos del documento HTML, se usa "* {}"
+
+* {
+    background: pink;
+}
+
+*/
