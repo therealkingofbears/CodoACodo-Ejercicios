@@ -1,3 +1,6 @@
+ //La palabra reservada "let" se usa para definir variables
+ //La palabra reservada "var" también define variables pero está en desuso
+ 
  var nombre = "Diego"; //la asignación de la variable es con el =
  var telefono = 1153786359; //sin comillas si es una variable numérica, con comillas si es string
  var suscriptoONo = true;
