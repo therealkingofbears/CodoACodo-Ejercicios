@@ -20,10 +20,4 @@ La función "prompt" sirve para pedir datos por pantalla
 var color = prompt("Escribí un color primario");
 */
 
-/*
-Se pueden combinar las etiquetas con las clases, como abajo, que usa la etiqueta "div" junto con la clase ".especial" y junto a otra etiqueta "p"
 
-div.especial p {
-
-}
-*/
